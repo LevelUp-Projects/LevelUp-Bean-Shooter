@@ -6,6 +6,8 @@ public class Player
 {
     private string playerName;
     private int damage;
+    public float movementSpeed = 5;
+    public float mouseSensitivity = 2;
 
     public string GetPlayerName()
     {
